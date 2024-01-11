@@ -1,10 +1,16 @@
 /* Components */
+import Page from './Mypage/page'
 import { Counter } from './components/Counter/Counter'
 
 export default function IndexPage() {
-  return <Counter />
+  return (
+    <>
+    <Page />
+    </>
+  )
 }
 
 export const metadata = {
-  title: 'Redux Toolkit',
+  // title: 'Redux Toolkit',
+  title: 'Bookstore',
 }
